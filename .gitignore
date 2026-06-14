@@ -1,0 +1,8 @@
+# OS
+.DS_Store
+
+# Local dev/preview tooling
+.claude/
+
+# Dependencies (none currently, but just in case)
+node_modules/
