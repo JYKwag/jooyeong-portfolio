@@ -12,7 +12,7 @@ python3 -m http.server 8000
 - `index.html` — the page
 - `styles.css` — styles
 - `app.js` — scroll reveals, metric count-up, mobile nav
-- `assets/` — résumé PDF
+- `assets/` — favicons (SVG + PNG)
 
 ## Deploy — Cloudflare Pages
 Connect this repo in Cloudflare Pages with:
