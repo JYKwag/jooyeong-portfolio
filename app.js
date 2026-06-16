@@ -17,6 +17,13 @@
         toggle.setAttribute("aria-expanded", "false");
       }
     });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && nav.classList.contains("open")) {
+        nav.classList.remove("open");
+        toggle.setAttribute("aria-expanded", "false");
+        toggle.focus();
+      }
+    });
   }
 
   /* ---------- Reveal on scroll ---------- */
