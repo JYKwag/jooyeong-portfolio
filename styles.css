@@ -41,7 +41,7 @@ a:focus-visible, button:focus-visible, .btn:focus-visible, .nav-toggle:focus-vis
   outline:2px solid var(--orange); outline-offset:3px; border-radius:4px;
 }
 /* keep nav anchor targets clear of the sticky header */
-#about, #work, #contact{ scroll-margin-top:84px; }
+#about, #work, #building, #contact{ scroll-margin-top:84px; }
 
 /* shared bits */
 .eyebrow{
